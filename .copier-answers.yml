@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier
+_commit: 2.6.0
+_src_path: gh:DiamondLightSource/python-copier-template
+author_email: max@maxherbert.com
+author_name: Max Herbert
+description: Simulation of the hive controller hardware for IOC development
+distribution_name: sim-hive-controller
+docker: true
+docs_type: README
+git_platform: github.com
+github_org: buzz-metrics
+package_name: sim_hive_controller
+pypi: false
+repo_name: sim-hive-controller
+type_checker: pyright
