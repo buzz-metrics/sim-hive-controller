@@ -1,5 +1,3 @@
-from typing import Union
-
 from ._signal_generator import Signal_Generator
 
 
@@ -7,7 +5,7 @@ class PV:
     def __init__(
         self,
         name: str,
-        v0: Union[int, float, str, Signal_Generator],
+        v0: int | float | str | Signal_Generator,
         getable: bool,
         setable: bool,
     ):

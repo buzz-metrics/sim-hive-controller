@@ -1,7 +1,5 @@
 """Interface for ``python -m hive_controller_ioc`` using Typer."""
 
-from enum import Enum
-
 import typer
 import uvicorn
 
